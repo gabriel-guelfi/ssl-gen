@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(gabrielvalentoni.io www.gabrielvalentoni.io)
+domains=(gabrielvalentoni.io www.gabrielvalentoni.io) #configurar domínio aqui
 rsa_key_size=4096
 data_path="../ssldata/certbot"
 email="gabriel.valguelfi@fmail.com" # Adding a valid address is strongly recommended
