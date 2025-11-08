@@ -39,7 +39,7 @@ Save and exit.
 
 **3. Set your DNS on the nginx config file:** In the marked locations, change the DNS, replacing it with your own:]
 ```bash
-sudo nano /data/nginx/app.conf
+sudo nano data/nginx/app.conf
 ```
 Then edit the following lines:
 ```bash
