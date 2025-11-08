@@ -7,7 +7,7 @@ if ! docker compose version >/dev/null 2>&1; then
   exit 1
 fi
 
-domains=(gabrielvalentoni.io www.gabrielvalentoni.io) # configure your domains here
+domains=(yout-domain-here.com www.yout-domain-here.com) # <== CONFIGURE YOUR DOMAINS HERE **
 rsa_key_size=4096
 data_path="../ssldata/certbot"
 email="gabriel.valguelfi@fmail.com" # use a valid email
